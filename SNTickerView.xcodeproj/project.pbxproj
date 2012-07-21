@@ -1,0 +1,285 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		72BA33D915BA933200E1C504 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72BA33D815BA933200E1C504 /* UIKit.framework */; };
+		72BA33DB15BA933200E1C504 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72BA33DA15BA933200E1C504 /* Foundation.framework */; };
+		72BA33DD15BA933200E1C504 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72BA33DC15BA933200E1C504 /* CoreGraphics.framework */; };
+		72BA33E315BA933200E1C504 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 72BA33E115BA933200E1C504 /* InfoPlist.strings */; };
+		72BA33E515BA933200E1C504 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 72BA33E415BA933200E1C504 /* main.m */; };
+		72BA33E915BA933200E1C504 /* SNAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 72BA33E815BA933200E1C504 /* SNAppDelegate.m */; };
+		72BA33EC15BA933200E1C504 /* SNViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 72BA33EB15BA933200E1C504 /* SNViewController.m */; };
+		72BA33EF15BA933200E1C504 /* SNViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 72BA33ED15BA933200E1C504 /* SNViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		72BA33D415BA933200E1C504 /* SNTickerView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SNTickerView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		72BA33D815BA933200E1C504 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		72BA33DA15BA933200E1C504 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		72BA33DC15BA933200E1C504 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		72BA33E015BA933200E1C504 /* SNTickerView-Info.plist */ = {isa = PBXFileReference; path = "SNTickerView-Info.plist"; sourceTree = "<group>"; };
+		72BA33E215BA933200E1C504 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		72BA33E415BA933200E1C504 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		72BA33E615BA933200E1C504 /* SNTickerView-Prefix.pch */ = {isa = PBXFileReference; path = "SNTickerView-Prefix.pch"; sourceTree = "<group>"; };
+		72BA33E715BA933200E1C504 /* SNAppDelegate.h */ = {isa = PBXFileReference; path = SNAppDelegate.h; sourceTree = "<group>"; };
+		72BA33E815BA933200E1C504 /* SNAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SNAppDelegate.m; sourceTree = "<group>"; };
+		72BA33EA15BA933200E1C504 /* SNViewController.h */ = {isa = PBXFileReference; path = SNViewController.h; sourceTree = "<group>"; };
+		72BA33EB15BA933200E1C504 /* SNViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SNViewController.m; sourceTree = "<group>"; };
+		72BA33EE15BA933200E1C504 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SNViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		72BA33D115BA933200E1C504 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72BA33D915BA933200E1C504 /* UIKit.framework in Frameworks */,
+				72BA33DB15BA933200E1C504 /* Foundation.framework in Frameworks */,
+				72BA33DD15BA933200E1C504 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		72BA33C915BA933200E1C504 = {
+			isa = PBXGroup;
+			children = (
+				72BA33DE15BA933200E1C504 /* SNTickerView */,
+				72BA33D715BA933200E1C504 /* Frameworks */,
+				72BA33D515BA933200E1C504 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		72BA33D515BA933200E1C504 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				72BA33D415BA933200E1C504 /* SNTickerView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		72BA33D715BA933200E1C504 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				72BA33D815BA933200E1C504 /* UIKit.framework */,
+				72BA33DA15BA933200E1C504 /* Foundation.framework */,
+				72BA33DC15BA933200E1C504 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		72BA33DE15BA933200E1C504 /* SNTickerView */ = {
+			isa = PBXGroup;
+			children = (
+				72BA33E715BA933200E1C504 /* SNAppDelegate.h */,
+				72BA33E815BA933200E1C504 /* SNAppDelegate.m */,
+				72BA33EA15BA933200E1C504 /* SNViewController.h */,
+				72BA33EB15BA933200E1C504 /* SNViewController.m */,
+				72BA33ED15BA933200E1C504 /* SNViewController.xib */,
+				72BA33DF15BA933200E1C504 /* Supporting Files */,
+			);
+			path = SNTickerView;
+			sourceTree = "<group>";
+		};
+		72BA33DF15BA933200E1C504 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				72BA33E015BA933200E1C504 /* SNTickerView-Info.plist */,
+				72BA33E115BA933200E1C504 /* InfoPlist.strings */,
+				72BA33E415BA933200E1C504 /* main.m */,
+				72BA33E615BA933200E1C504 /* SNTickerView-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		72BA33D315BA933200E1C504 /* SNTickerView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 72BA33F215BA933200E1C504 /* Build configuration list for PBXNativeTarget "SNTickerView" */;
+			buildPhases = (
+				72BA33D015BA933200E1C504 /* Sources */,
+				72BA33D115BA933200E1C504 /* Frameworks */,
+				72BA33D215BA933200E1C504 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SNTickerView;
+			productName = SNTickerView;
+			productReference = 72BA33D415BA933200E1C504 /* SNTickerView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		72BA33CB15BA933200E1C504 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = SN;
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = "Siddhesh Naik";
+			};
+			buildConfigurationList = 72BA33CE15BA933200E1C504 /* Build configuration list for PBXProject "SNTickerView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 72BA33C915BA933200E1C504;
+			productRefGroup = 72BA33D515BA933200E1C504 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				72BA33D315BA933200E1C504 /* SNTickerView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		72BA33D215BA933200E1C504 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72BA33E315BA933200E1C504 /* InfoPlist.strings in Resources */,
+				72BA33EF15BA933200E1C504 /* SNViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		72BA33D015BA933200E1C504 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72BA33E515BA933200E1C504 /* main.m in Sources */,
+				72BA33E915BA933200E1C504 /* SNAppDelegate.m in Sources */,
+				72BA33EC15BA933200E1C504 /* SNViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		72BA33E115BA933200E1C504 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				72BA33E215BA933200E1C504 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		72BA33ED15BA933200E1C504 /* SNViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				72BA33EE15BA933200E1C504 /* en */,
+			);
+			name = SNViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		72BA33F015BA933200E1C504 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		72BA33F115BA933200E1C504 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		72BA33F315BA933200E1C504 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SNTickerView/SNTickerView-Prefix.pch";
+				INFOPLIST_FILE = "SNTickerView/SNTickerView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		72BA33F415BA933200E1C504 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SNTickerView/SNTickerView-Prefix.pch";
+				INFOPLIST_FILE = "SNTickerView/SNTickerView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		72BA33CE15BA933200E1C504 /* Build configuration list for PBXProject "SNTickerView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72BA33F015BA933200E1C504 /* Debug */,
+				72BA33F115BA933200E1C504 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		72BA33F215BA933200E1C504 /* Build configuration list for PBXNativeTarget "SNTickerView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72BA33F315BA933200E1C504 /* Debug */,
+				72BA33F415BA933200E1C504 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 72BA33CB15BA933200E1C504 /* Project object */;
+}
